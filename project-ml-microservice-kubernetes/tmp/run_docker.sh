@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+!/usr/bin/env bash
 
 ## Complete the following steps to get Docker running locally
 
@@ -12,4 +12,4 @@ docker images
 
 # Step 3: 
 # Run flask app
-docker run -p 5000:5000 --name=udacity udacity-project4
+docker run -d -p 5000:5000 --name=udacity udacity-project4
